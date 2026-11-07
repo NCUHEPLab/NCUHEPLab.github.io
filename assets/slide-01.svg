@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Collide, detect, image</title>
+  <desc id="desc">An abstract particle collision within concentric detector layers above a mountain cutaway crossed by cosmic-ray muon tracks. Deep blue and burnt orange, with open space on the left for a website headline. This is a conceptual illustration.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#111C36"/>
+      <stop offset=".6" stop-color="#1C2B4E"/>
+      <stop offset="1" stop-color="#30497C"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#4C6AAC" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#4C6AAC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rock" x2=".3" y2="1">
+      <stop stop-color="#4C6AAC" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#23365C" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="beam">
+      <stop stop-color="#CA561F" stop-opacity="0"/>
+      <stop offset=".7" stop-color="#CA561F"/>
+      <stop offset="1" stop-color="#FFD1A8"/>
+    </linearGradient>
+    <linearGradient id="leftShade">
+      <stop stop-color="#111C36" stop-opacity=".7"/>
+      <stop offset=".58" stop-color="#111C36" stop-opacity=".15"/>
+      <stop offset="1" stop-color="#111C36" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#A8BCE6" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="mountainClip">
+      <path d="M700 782 837 682 915 712 1075 540 1157 612 1230 572 1380 727 1450 680 1600 787V900H700Z"/>
+    </clipPath>
+    <g id="detectorTick"><path d="M0-220V-234" stroke="#A8BCE6" stroke-width="2"/></g>
+  </defs>
+  <rect width="1600" height="900" fill="url(#background)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <ellipse cx="1180" cy="345" rx="500" ry="480" fill="url(#halo)"/>
+  <!-- Concentric detector layers and segmentation, conceptual rather than an experiment schematic. -->
+  <g transform="translate(1175 330) rotate(-14)" fill="none">
+    <circle r="270" stroke="#A8BCE6" stroke-opacity=".12"/>
+    <circle r="242" stroke="#4C6AAC" stroke-width="20" stroke-opacity=".23"/>
+    <circle r="217" stroke="#A8BCE6" stroke-opacity=".45" stroke-dasharray="2 12" stroke-width="9"/>
+    <circle r="192" stroke="#A8BCE6" stroke-opacity=".22" stroke-width="2"/>
+    <circle r="169" stroke="#4C6AAC" stroke-opacity=".6" stroke-width="17" stroke-dasharray="48 5"/>
+    <circle r="140" stroke="#A8BCE6" stroke-opacity=".45"/>
+    <circle r="116" stroke="#A8BCE6" stroke-opacity=".24" stroke-width="8" stroke-dasharray="1 10"/>
+    <circle r="79" stroke="#A8BCE6" stroke-opacity=".32"/>
+    <circle r="42" stroke="#CA561F" stroke-opacity=".65"/>
+    <g opacity=".5">
+      <use href="#detectorTick"/><use href="#detectorTick" transform="rotate(30)"/>
+      <use href="#detectorTick" transform="rotate(60)"/><use href="#detectorTick" transform="rotate(90)"/>
+      <use href="#detectorTick" transform="rotate(120)"/><use href="#detectorTick" transform="rotate(150)"/>
+      <use href="#detectorTick" transform="rotate(180)"/><use href="#detectorTick" transform="rotate(210)"/>
+      <use href="#detectorTick" transform="rotate(240)"/><use href="#detectorTick" transform="rotate(270)"/>
+      <use href="#detectorTick" transform="rotate(300)"/><use href="#detectorTick" transform="rotate(330)"/>
+    </g>
+  </g>
+  <!-- Incoming beam and tracks from the collision point. -->
+  <path d="M715 330H1175" stroke="url(#beam)" stroke-width="2"/>
+  <path d="M1600 330H1175" stroke="#A8BCE6" stroke-opacity=".45" stroke-width="2"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M1175 330Q1234 213 1390 163" stroke="#F2A06C" stroke-width="2.5"/>
+    <path d="M1175 330Q1148 234 1064 172" stroke="#A8BCE6" stroke-width="1.5"/>
+    <path d="M1175 330Q1284 339 1369 420" stroke="#A8BCE6" stroke-width="2"/>
+    <path d="M1175 330Q1112 364 1011 405" stroke="#A8BCE6" stroke-width="1.5"/>
+    <path d="M1175 330Q1201 403 1286 474" stroke="#CA561F" stroke-width="3"/>
+    <path d="M1175 330Q1190 267 1238 227" stroke="#A8BCE6" stroke-opacity=".6"/>
+  </g>
+  <g fill="#F2A06C">
+    <circle cx="1390" cy="163" r="4"/><circle cx="1286" cy="474" r="4"/>
+  </g>
+  <circle cx="1175" cy="330" r="17" fill="#CA561F" fill-opacity=".16"/>
+  <circle cx="1175" cy="330" r="6" fill="#FFD1A8"/>
+  <circle cx="1175" cy="330" r="2.5" fill="#fff"/>
+  <!-- Mountain surface and internal strata evoke density imaging. -->
+  <path d="M700 782 837 682 915 712 1075 540 1157 612 1230 572 1380 727 1450 680 1600 787V900H700Z" fill="url(#rock)"/>
+  <g clip-path="url(#mountainClip)" fill="none" stroke="#A8BCE6" stroke-opacity=".23" stroke-width="1.5">
+    <path d="M680 747Q870 806 1020 686T1275 705T1630 776"/>
+    <path d="M680 785Q870 844 1020 724T1275 743T1630 814"/>
+    <path d="M680 823Q870 882 1020 762T1275 781T1630 852"/>
+    <path d="M680 861Q870 920 1020 800T1275 819T1630 890"/>
+    <ellipse cx="1125" cy="768" rx="78" ry="46" stroke="#F2A06C" stroke-opacity=".48"/>
+    <ellipse cx="1125" cy="768" rx="52" ry="29" stroke="#F2A06C" stroke-opacity=".3"/>
+  </g>
+  <path d="M700 782 837 682 915 712 1075 540 1157 612 1230 572 1380 727 1450 680 1600 787" fill="none" stroke="#A8BCE6" stroke-opacity=".55" stroke-width="2"/>
+  <!-- Parallel muon trajectories continue through rock to a small detector plane. -->
+  <g fill="none" stroke="#F2A06C" stroke-width="1.5">
+    <path d="M1084 452 1450 816" stroke-opacity=".7"/>
+    <path d="M1110 436 1476 800" stroke-opacity=".45"/>
+    <path d="M1136 420 1502 784" stroke-opacity=".3"/>
+  </g>
+  <g transform="translate(1476 800) rotate(-32)">
+    <rect x="-52" y="-13" width="104" height="26" rx="2" fill="#1C2B4E" stroke="#A8BCE6"/>
+    <path d="M-43-5H43M-43 4H43" stroke="#CA561F" stroke-width="3"/>
+  </g>
+  <rect width="1600" height="900" fill="url(#leftShade)"/>
+</svg>

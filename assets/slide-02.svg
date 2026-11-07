@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">CMS — exploring fundamental particles</title>
+  <desc id="desc">Conceptual illustration inspired by the layered CMS detector, with concentric detector rings, incoming particle beams, and tracks emerging from a collision. Blue and burnt orange on a dark background, with space on the left for a website headline. Not an engineering diagram or recorded collision event.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#111C36"/>
+      <stop offset=".6" stop-color="#1C2B4E"/>
+      <stop offset="1" stop-color="#30497C"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#4C6AAC" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#4C6AAC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="barrel" x2="1" y2="1">
+      <stop stop-color="#4C6AAC" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#A8BCE6" stop-opacity=".03"/>
+    </linearGradient>
+    <linearGradient id="beam">
+      <stop stop-color="#CA561F" stop-opacity="0"/>
+      <stop offset=".82" stop-color="#CA561F"/>
+      <stop offset="1" stop-color="#FFD1A8"/>
+    </linearGradient>
+    <linearGradient id="shade">
+      <stop stop-color="#111C36" stop-opacity=".8"/>
+      <stop offset=".5" stop-color="#111C36" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#111C36" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#A8BCE6" stroke-opacity=".045"/>
+    </pattern>
+    <g id="segment" fill="none" stroke="#A8BCE6">
+      <path d="M0-300V-324" stroke-width="2"/>
+      <path d="M0-238V-260" stroke-opacity=".5"/>
+    </g>
+  </defs>
+  <rect width="1600" height="900" fill="url(#background)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <ellipse cx="1170" cy="450" rx="530" ry="500" fill="url(#halo)"/>
+  <!-- A second offset face and connectors suggest a cylindrical detector volume. -->
+  <g fill="none" stroke="#A8BCE6" stroke-opacity=".12">
+    <ellipse cx="1325" cy="345" rx="287" ry="320"/>
+    <ellipse cx="1325" cy="345" rx="238" ry="265"/>
+    <path d="M1085 102 1240 5M820 450 1038 345M1110 798 1265 665M1398 250 1553 145M1398 650 1553 545"/>
+  </g>
+  <path d="M820 450Q820 212 1085 102L1240 5Q1040 120 1038 345Z" fill="url(#barrel)"/>
+  <!-- Stylized end-on view; dimensions and layer counts are illustrative. -->
+  <g transform="translate(1110 450)" fill="none">
+    <path d="M-92-344H92L252-252 344-92V92L252 252 92 344H-92L-252 252-344 92V-92L-252-252Z" stroke="#4C6AAC" stroke-width="24" stroke-opacity=".44"/>
+    <path d="M-92-344H92L252-252 344-92V92L252 252 92 344H-92L-252 252-344 92V-92L-252-252Z" stroke="#A8BCE6" stroke-width="1" stroke-opacity=".3"/>
+    <circle r="302" stroke="#A8BCE6" stroke-opacity=".3" stroke-width="8" stroke-dasharray="64 15"/>
+    <circle r="278" stroke="#A8BCE6" stroke-opacity=".3"/>
+    <circle r="252" stroke="#4C6AAC" stroke-width="20" stroke-opacity=".75"/>
+    <circle r="228" stroke="#A8BCE6" stroke-opacity=".35"/>
+    <circle r="206" stroke="#CA561F" stroke-opacity=".7" stroke-width="23" stroke-dasharray="34 4"/>
+    <circle r="181" stroke="#A8BCE6" stroke-opacity=".3"/>
+    <circle r="161" stroke="#A8BCE6" stroke-opacity=".55" stroke-width="13" stroke-dasharray="9 3"/>
+    <circle r="132" stroke="#4C6AAC" stroke-opacity=".8" stroke-width="2"/>
+    <circle r="106" stroke="#A8BCE6" stroke-opacity=".35" stroke-dasharray="2 5" stroke-width="4"/>
+    <circle r="78" stroke="#A8BCE6" stroke-opacity=".45"/>
+    <circle r="53" stroke="#A8BCE6" stroke-opacity=".4"/>
+    <circle r="27" stroke="#F2A06C" stroke-opacity=".7"/>
+    <g opacity=".5">
+      <use href="#segment"/><use href="#segment" transform="rotate(30)"/>
+      <use href="#segment" transform="rotate(60)"/><use href="#segment" transform="rotate(90)"/>
+      <use href="#segment" transform="rotate(120)"/><use href="#segment" transform="rotate(150)"/>
+      <use href="#segment" transform="rotate(180)"/><use href="#segment" transform="rotate(210)"/>
+      <use href="#segment" transform="rotate(240)"/><use href="#segment" transform="rotate(270)"/>
+      <use href="#segment" transform="rotate(300)"/><use href="#segment" transform="rotate(330)"/>
+    </g>
+  </g>
+  <!-- Incoming beams converge at the interaction point. -->
+  <path d="M590 570 1110 450" fill="none" stroke="url(#beam)" stroke-width="2"/>
+  <path d="M1600 337 1110 450" fill="none" stroke="#A8BCE6" stroke-opacity=".45" stroke-width="2"/>
+  <!-- Illustrative curved charged-particle tracks and highlighted energy deposits. -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M1110 450Q1200 333 1407 283" stroke="#F2A06C" stroke-width="3"/>
+    <path d="M1110 450Q1220 352 1395 313" stroke="#F2A06C" stroke-opacity=".45" stroke-width="1.5"/>
+    <path d="M1110 450Q1180 325 1372 264" stroke="#F2A06C" stroke-opacity=".45" stroke-width="1.5"/>
+    <path d="M1110 450Q1044 527 847 650" stroke="#A8BCE6" stroke-width="2.5"/>
+    <path d="M1110 450Q1086 568 881 676" stroke="#A8BCE6" stroke-opacity=".45" stroke-width="1.5"/>
+    <path d="M1110 450Q1160 571 1278 714" stroke="#A8BCE6" stroke-width="2"/>
+    <path d="M1110 450Q1047 370 952 288" stroke="#A8BCE6" stroke-width="1.5"/>
+    <path d="M1110 450Q1177 492 1294 474" stroke="#F2A06C" stroke-width="2"/>
+    <path d="M1110 450Q1057 455 1019 397T1034 307" stroke="#A8BCE6" stroke-opacity=".5"/>
+  </g>
+  <g fill="#CA561F">
+    <path d="m1380 266 13-8 26 46-14 8Z"/>
+    <path d="m1259 690 12-8 28 39-12 9Z"/>
+    <rect x="1280" y="463" width="18" height="21" rx="2"/>
+  </g>
+  <g fill="#A8BCE6">
+    <circle cx="847" cy="650" r="4"/><circle cx="952" cy="288" r="3"/>
+  </g>
+  <circle cx="1110" cy="450" r="20" fill="#CA561F" fill-opacity=".15"/>
+  <circle cx="1110" cy="450" r="7" fill="#FFD1A8"/>
+  <circle cx="1110" cy="450" r="3" fill="#fff"/>
+  <rect width="1600" height="900" fill="url(#shade)"/>
+</svg>

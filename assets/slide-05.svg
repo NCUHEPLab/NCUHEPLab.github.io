@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Muography — seeing inside mountains with cosmic rays</title>
+  <desc id="desc">A conceptual mountain cutaway with layered rock, density contours, cosmic-ray muon trajectories, and a small field detector. Blue and burnt orange on a dark background, with open space on the left for a website headline. Geological layers and particle paths are illustrative.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#111C36"/>
+      <stop offset=".6" stop-color="#1C2B4E"/>
+      <stop offset="1" stop-color="#30497C"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#4C6AAC" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#4C6AAC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rock" x2=".3" y2="1">
+      <stop stop-color="#4C6AAC" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#23365C" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="density">
+      <stop stop-color="#F2A06C" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#CA561F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade">
+      <stop stop-color="#111C36" stop-opacity=".8"/>
+      <stop offset=".5" stop-color="#111C36" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#111C36" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#A8BCE6" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="mountain">
+      <path d="M682 744 792 642 854 664 957 508 1052 453 1121 327 1181 344 1227 401 1292 470 1342 446 1459 625 1520 594 1600 683V900H682Z"/>
+    </clipPath>
+    <g id="detectorLayer">
+      <path d="M0 0 30-20H130L100 0Z" fill="#4C6AAC" stroke="#A8BCE6" stroke-opacity=".7"/>
+      <path d="M0 0H100V12H0ZM100 0 130-20V-8L100 12Z" fill="#1C2B4E" stroke="#A8BCE6" stroke-opacity=".55"/>
+      <path d="M20-3 50-23M40-3 70-23M60-3 90-23M80-3 110-23" stroke="#A8BCE6" stroke-opacity=".5"/>
+    </g>
+  </defs>
+  <rect width="1600" height="900" fill="url(#background)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <ellipse cx="1190" cy="430" rx="520" ry="480" fill="url(#halo)"/>
+  <!-- Faint distant ridges establish the outdoor setting. -->
+  <path d="M660 726 854 508 954 549 1078 294 1192 433 1320 305 1480 512 1600 453V900H660Z" fill="#4C6AAC" fill-opacity=".09" stroke="#A8BCE6" stroke-opacity=".1"/>
+  <!-- Parallel cosmic-ray muon paths approach the mountain. -->
+  <g fill="none" stroke="#A8BCE6" stroke-width="1.5" stroke-opacity=".42">
+    <path d="M778 100 1098 436"/>
+    <path d="M870 86 1168 399"/>
+    <path d="M962 72 1252 377"/>
+    <path d="M1054 58 1344 363"/>
+    <path d="M1146 44 1436 349"/>
+    <path d="M1238 30 1528 335"/>
+  </g>
+  <g fill="none" stroke="#A8BCE6" stroke-opacity=".7">
+    <path d="m843 168 11 12-2-12m2 12-12-3"/>
+    <path d="m1027 140 11 12-2-12m2 12-12-3"/>
+    <path d="m1211 112 11 12-2-12m2 12-12-3"/>
+  </g>
+  <!-- Mountain cross-section. -->
+  <path d="M682 744 792 642 854 664 957 508 1052 453 1121 327 1181 344 1227 401 1292 470 1342 446 1459 625 1520 594 1600 683V900H682Z" fill="url(#rock)"/>
+  <g clip-path="url(#mountain)" fill="none" stroke="#A8BCE6" stroke-width="1.5" stroke-opacity=".32">
+    <path d="M640 594Q843 664 1023 538T1319 530T1650 604"/>
+    <path d="M640 644Q843 714 1023 588T1319 580T1650 654"/>
+    <path d="M640 694Q843 764 1023 638T1319 630T1650 704"/>
+    <path d="M640 744Q843 814 1023 688T1319 680T1650 754"/>
+    <path d="M640 794Q843 864 1023 738T1319 730T1650 804"/>
+    <path d="M640 844Q843 914 1023 788T1319 780T1650 854"/>
+    <path d="M1100 390Q1060 520 1102 650T1114 900" stroke-dasharray="4 8" stroke-opacity=".24"/>
+  </g>
+  <!-- Density contours are conceptual rather than a reconstructed measurement. -->
+  <g clip-path="url(#mountain)">
+    <ellipse cx="1174" cy="598" rx="178" ry="133" fill="url(#density)"/>
+    <g fill="none" stroke="#F2A06C" stroke-opacity=".5" stroke-width="1.5">
+      <path d="M1056 592C1051 521 1158 483 1230 517S1316 630 1252 661 1072 667 1056 592Z"/>
+      <path d="M1080 592C1078 539 1159 510 1217 536S1284 619 1234 641 1093 650 1080 592Z" stroke-opacity=".38"/>
+      <path d="M1106 593C1107 555 1164 537 1204 555S1251 611 1217 625 1114 631 1106 593Z" stroke-opacity=".28"/>
+    </g>
+    <g stroke="#CA561F" stroke-width="2" stroke-opacity=".75">
+      <path d="M954 235 1479 786"/>
+      <path d="M977 212 1502 763"/>
+      <path d="M1000 189 1525 740"/>
+    </g>
+  </g>
+  <path d="M682 744 792 642 854 664 957 508 1052 453 1121 327 1181 344 1227 401 1292 470 1342 446 1459 625 1520 594 1600 683" fill="none" stroke="#A8BCE6" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M1121 327 1136 422 1102 484M1181 344 1175 405 1237 481M1342 446 1326 513 1389 576" fill="none" stroke="#A8BCE6" stroke-opacity=".25"/>
+  <!-- Selected trajectories continue through rock toward the detector. -->
+  <g fill="none" stroke="#F2A06C" stroke-width="1.5" stroke-opacity=".75">
+    <path d="M954 235 1107 396"/>
+    <path d="M977 212 1130 373"/>
+    <path d="M1000 189 1153 350"/>
+    <path d="M1459 765 1479 786M1482 742 1502 763M1505 719 1525 740"/>
+  </g>
+  <!-- Portable detector with stacked scintillator-like panels. -->
+  <g transform="translate(1434 770)">
+    <path d="M-22 71H139L160 57H-1Z" fill="#111C36" fill-opacity=".7"/>
+    <path d="M5 6V65M95 6V65M125-12V45" stroke="#A8BCE6" stroke-width="3" stroke-opacity=".6"/>
+    <use href="#detectorLayer" transform="translate(0 0)"/>
+    <use href="#detectorLayer" transform="translate(0 23)"/>
+    <use href="#detectorLayer" transform="translate(0 46)"/>
+    <path d="M8 5H92M8 28H92M8 51H92" stroke="#CA561F" stroke-width="3"/>
+    <rect x="-27" y="24" width="22" height="33" rx="2" fill="#1C2B4E" stroke="#A8BCE6" stroke-opacity=".5"/>
+    <circle cx="-16" cy="33" r="2" fill="#F2A06C"/>
+  </g>
+  <rect width="1600" height="900" fill="url(#shade)"/>
+</svg>
