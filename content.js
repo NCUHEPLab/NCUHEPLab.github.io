@@ -161,6 +161,9 @@ window.LAB_CONTENT = {
         "title": "學士班",
         "members": [
           {
+            "name": "彭家城"
+          },
+          {
             "name": "羅士鈜"
           },
           {
@@ -550,6 +553,9 @@ window.LAB_CONTENT = {
       {
         "title": "Undergraduate Students",
         "members": [
+          {
+            "name": "Kah Seng Phay"
+          },    
           {
             "name": "Shih-Hung Lo"
           },
