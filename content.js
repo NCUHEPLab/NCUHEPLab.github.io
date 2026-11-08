@@ -54,7 +54,7 @@ window.LAB_CONTENT = {
       ]
     ],
     "access": "聯絡與交通",
-    "address": "請填入學校、系所、實驗室地址與房號。",
+    "address": "國立中央大學物理系 科學四館(健雄館) 404 室",
     "footer": "國立中央大學物理系 · 高能物理實驗室",
     "menu": "開啟導覽選單",
     "prev": "上一張",
@@ -64,8 +64,8 @@ window.LAB_CONTENT = {
     "gallery": "活動剪影",
     "gallerySub": "研究、交流與實驗室日常",
     "videos": "影片專區",
-    "videoTitle": "認識電子離子對撞機 EIC",
-    "videoDesc": "來自 Jefferson Lab 網站的 EIC 介紹影片。",
+    "videoTitle": "",
+    "videoDesc": "",
     "watch": "在 YouTube 觀看 ↗",
     "loadVideo": "播放影片",
     "videoPrivacy": "點擊播放後將連線至 YouTube。若無法播放，可使用下方連結觀看。",
@@ -185,7 +185,7 @@ window.LAB_CONTENT = {
       ]
     ],
     "access": "Contact & access",
-    "address": "Add university, department, laboratory address, and room number.",
+    "address": "Room 404, Science Building 4 (Chien-Shiung Buidling), Department of Physics, National Central University, Chungli, Taiwan.",
     "footer": "High Energy Physics Laboratory · National Central University",
     "menu": "Open navigation menu",
     "prev": "Previous slide",
