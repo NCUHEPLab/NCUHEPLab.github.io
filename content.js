@@ -555,7 +555,7 @@ window.LAB_CONTENT = {
         "members": [
           {
             "name": "Kah Seng Phay"
-          },    
+          },
           {
             "name": "Shih-Hung Lo"
           },
@@ -885,5 +885,54 @@ window.LAB_SETTINGS = {
     }
     }
   ],
-  "galleryPhotos": []
+  "galleryPhotos": [
+  {
+    "src": "assets/life/TPS2020_01.jpg",
+    "category": "labLife",
+    "caption": {
+      "zh": "團隊成員參與 TPS 2020",
+      "en": "Our Team at TPS 2020"
+    },
+    "description": {
+      "zh": "團隊成員參加 TPS 2020 台灣物理年會時的合影。",
+      "en": "A group photo of our team members at the 2020 Annual Meeting of the Physical Society of Taiwan."
+    },
+    "alt": {
+      "zh": "團隊成員於 TPS 2020 台灣物理年會的合照",
+      "en": "Our team members posing for a group photo at TPS 2020"
+    }
+  },
+  {
+    "src": "assets/ISMD2026.jpg",
+    "category": "workshops",
+    "caption": {
+      "zh": "ISMD 2026 會議合照",
+      "en": "ISMD 2026 Group Photo"
+    },
+    "description": {
+      "zh": "我們在國立中央大學主辦 ISMD 2026 期間，與來自各地的與會者合影留念。",
+      "en": "A group photo with participants from around the world at ISMD 2026, the 54th International Symposium on Multiparticle Dynamics, which we hosted at National Central University."
+    },
+    "alt": {
+      "zh": "ISMD 2026 與會者於國立中央大學的合照",
+      "en": "ISMD 2026 participants posing for a group photo at National Central University"
+    }
+  },
+  {
+    "src": "assets/IS2025.jpg",
+    "category": "workshops",
+    "caption": {
+      "zh": "IS 2025 會議合照",
+      "en": "IS 2025 Group Photo"
+    },
+    "description": {
+      "zh": "我們在台北主辦 IS 2025 期間，與來自各地的與會者合影留念。",
+      "en": "A group photo with participants from around the world at Initial Stages 2025, which we hosted in Taipei."
+    },
+    "alt": {
+      "zh": "IS 2025 與會者於國立中央大學的合照",
+      "en": "IS 2025 participants posing for a group photo in Taipei"
+    }
+  }
+  ]
 };
