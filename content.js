@@ -75,7 +75,7 @@ window.LAB_CONTENT = {
       "團隊日常"
     ],
     "galleryNote": "示意圖，待替換為實驗室照片",
-    "contactPending": "聯絡資訊更新中",
+    "contactPending": "",
     "peopleTitle": "團隊與實驗室生活",
     "peopleIntro": "認識我們的團隊，看看研究之外的交流與日常。",
     "backHome": "返回首頁 ↗",
@@ -206,7 +206,7 @@ window.LAB_CONTENT = {
       "Lab life"
     ],
     "galleryNote": "Illustration · replace with a lab photograph",
-    "contactPending": "Contact details coming soon",
+    "contactPending": "",
     "peopleTitle": "People & lab life",
     "peopleIntro": "Meet our team and explore the exchanges and everyday moments behind our research.",
     "backHome": "Back to home ↗",
