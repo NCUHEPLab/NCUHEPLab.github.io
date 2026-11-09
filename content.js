@@ -336,10 +336,31 @@ window.LAB_CONTENT = {
     },
     {
      "category": "international",
+     "year": "2026",
+     "name": "施承瑋",
+     "award": "最佳壁報獎",
+     "event": "2026 RHIC & AGS Annual Users' Meeting"
+    },
+    {
+     "category": "international",
+     "year": "2024",
+     "name": "施承瑋",
+     "award": "最佳壁報獎",
+     "event": "Hard Probes 2024"
+    },
+    {
+     "category": "international",
      "year": "2023",
      "name": "施承瑋",
-     "award": "Best Poster Award",
+     "award": "最佳壁報獎",
      "event": "Quark Matter 2023"
+    },
+    {
+     "category": "international",
+     "year": "2017",
+     "name": "張用威",
+     "award": "最佳壁報獎",
+     "event": "HSTD11"
     },
     {
      "category": "physicalSociety",
@@ -348,11 +369,227 @@ window.LAB_CONTENT = {
      "award": "研究生學位論文獎佳作"
     },
     {
+     "category": "physicalSociety",
+     "year": "2022",
+     "name": "施承瑋",
+     "award": "研究生優良論文獎佳作"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2020",
+     "name": "李明晏",
+     "award": "研究生優良論文獎佳作"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2019",
+     "name": "鄭皓仁",
+     "award": "研究生優良論文獎佳作"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2016",
+     "name": "張秋萍",
+     "award": "研究生優良論文獎佳作"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2015",
+     "name": "麥書豪",
+     "award": "研究生優良論文獎佳作"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2019",
+     "name": "李明晏",
+     "award": "大專生優良論文獎優良"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2018",
+     "name": "賴培築",
+     "award": "大專生優良論文獎佳作"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2020",
+     "name": "李明晏",
+     "award": "吳健雄獎學金"
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2025",
+     "name": "周禹璇",
+     "award": "口頭發表論文獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2020",
+     "name": "賴培築",
+     "award": "口頭發表論文獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2025",
+     "name": "施承瑋",
+     "award": "AAPPS Award",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2026",
+     "name": "周禹璇",
+     "award": "壁報優良獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2025",
+     "name": "陳品毅",
+     "award": "壁報優良獎",
+    },
+    {
      "category": "annualMeeting",
      "year": "2024",
      "name": "周禹璇",
-     "award": "壁報優良獎"
-    }
+     "award": "壁報優良獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2023",
+     "name": "蕭宇翔",
+     "award": "壁報優良獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2020",
+     "name": "李明晏",
+     "award": "壁報優良獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2019",
+     "name": "李明晏",
+     "award": "壁報優良獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2018",
+     "name": "汪本璿",
+     "award": "壁報優良獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2017",
+     "name": "鄭凱聿",
+     "award": "壁報優良獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2013",
+     "name": "曾師彥",
+     "award": "壁報優良獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2026",
+     "name": "林志霖",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2026",
+     "name": "林東誼",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2026",
+     "name": "蔡子翔",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2025",
+     "name": "周禹璇",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2025",
+     "name": "蕭宇翔",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2024",
+     "name": "施承瑋",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2024",
+     "name": "呂紹揚",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2024",
+     "name": "蕭宇翔",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2023",
+     "name": "周禹璇",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2023",
+     "name": "John Adams Villamoran",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2023",
+     "name": "張寶容",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2022",
+     "name": "沈聿陞",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2019",
+     "name": "施承瑋",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2018",
+     "name": "鄭凱聿",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2017",
+     "name": "鄭皓仁",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2016",
+     "name": "汪本璿",
+     "award": "壁報佳作獎",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2015",
+     "name": "葉政威",
+     "award": "壁報佳作獎",
+    }    
     ],
     "awardsEmpty": "獲獎紀錄更新中。",
     "gallerySections": [
@@ -729,10 +966,31 @@ window.LAB_CONTENT = {
     },
     {
      "category": "international",
+     "year": "2026",
+     "name": "Cheng-Wei Shih",
+     "award": "Best Poster Award",
+     "event": "2026 RHIC & AGS Annual Users' Meeting"
+    },
+    {
+     "category": "international",
+     "year": "2024",
+     "name": "Cheng-Wei Shih",
+     "award": "Best Poster Award",
+     "event": "Hard Probes 2024"
+    },
+    {
+     "category": "international",
      "year": "2023",
      "name": "Cheng-Wei Shih",
      "award": "Best Poster Award",
      "event": "Quark Matter 2023"
+    },
+    {
+     "category": "international",
+     "year": "2017",
+     "name": "Yung-Wei Chang",
+     "award": "Best Poster Award",
+     "event": "HSTD11"
     },
     {
      "category": "physicalSociety",
@@ -741,10 +999,226 @@ window.LAB_CONTENT = {
      "award": "Honorable Mention, Graduate Thesis Award"
     },
     {
+     "category": "physicalSociety",
+     "year": "2022",
+     "name": "Cheng-Wei Shih",
+     "award": "Honorable Mention, Graduate Thesis Award"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2020",
+     "name": "Ming-Yan Lee",
+     "award": "Honorable Mention, Graduate Thesis Award"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2019",
+     "name": "Hao-Ren Jheng",
+     "award": "Honorable Mention, Graduate Thesis Award"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2016",
+     "name": "Chiu-Ping Chang",
+     "award": "Honorable Mention, Graduate Thesis Award"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2015",
+     "name": "Shu-Hao Mai",
+     "award": "Honorable Mention, Graduate Thesis Award"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2019",
+     "name": "Ming-Yan Lee",
+     "award": "Merit Award, Undergraduate Publication Award"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2018",
+     "name": "Pei-Zhu Lai",
+     "award": "Honorable Mention, Undergraduate Publication Award"
+    },
+    {
+     "category": "physicalSociety",
+     "year": "2020",
+     "name": "Ming-Yan Lee",
+     "award": "Chien-Shiung Wu Scholarship"
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2025",
+     "name": "Yu-Hsuan Chou",
+     "award": "Oral Presentation Award",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2020",
+     "name": "Pei-Zhu Lai",
+     "award": "Oral Presentation Award",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2025",
+     "name": "Cheng-Wei Shih",
+     "award": "AAPPS Award",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2026",
+     "name": "Yu-Hsuan Chou",
+     "award": "Poster Presentation Merit Award",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2025",
+     "name": "Pin-I Chen",
+     "award": "Poster Presentation Merit Award",
+    },
+    {
      "category": "annualMeeting",
      "year": "2024",
      "name": "Yu-Hsuan Chou",
-     "award": "Outstanding Poster Award",
+     "award": "Poster Presentation Merit Award",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2023",
+     "name": "Yu-Hsiang Xiao",
+     "award": "Poster Presentation Merit Award",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2020",
+     "name": "Ming-Yan Lee",
+     "award": "Poster Presentation Merit Award",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2019",
+     "name": "Ming-Yan Lee",
+     "award": "Poster Presentation Merit Award",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2018",
+     "name": "Pen-Hsuan Wang",
+     "award": "Poster Presentation Merit Award",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2017",
+     "name": "Kai-Yu Cheng",
+     "award": "Poster Presentation Merit Award",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2013",
+     "name": "Shih-Yen Tseng",
+     "award": "Poster Presentation Merit Award",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2026",
+     "name": "Chih-Lin Lin",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2026",
+     "name": "Dong-Yi Lin",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2026",
+     "name": "Tzu-Hsiang Tsai",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2025",
+     "name": "Yu-Hsuan Chou",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2025",
+     "name": "Yu-Hsiang Xiao",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2024",
+     "name": "Cheng-Wei Shih",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2024",
+     "name": "Shao-Yang Lu",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2024",
+     "name": "Yu-Hsiang Xiao",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2023",
+     "name": "Yu-Hsuan Chou",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2023",
+     "name": "John Adams Villamoran",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2023",
+     "name": "Pao-Jung Chang",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2022",
+     "name": "Yu-Sheng Shen",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2019",
+     "name": "Cheng-Wei Shih",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2018",
+     "name": "Kai-Yu Cheng",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2017",
+     "name": "Hao-Ren Jheng",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2016",
+     "name": "Pen-Hsuan Wang",
+     "award": "Honorable Mention for Poster Presentation",
+    },
+    {
+     "category": "annualMeeting",
+     "year": "2015",
+     "name": "Cheng-Wei Yeh",
+     "award": "Honorable Mention for Poster Presentation",
     }
     ],
     "awardsEmpty": "Award records coming soon.",
