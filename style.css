@@ -164,3 +164,32 @@ nav a[aria-current="page"] {
 .leader-record { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 28px; padding: 18px 0; border-top: 1px solid var(--line); }
 .leader-year { color: var(--secondary-ink); font-weight: 600; }
 @media (max-width: 800px) { .leader-record { grid-template-columns: 1fr; gap: 6px; } }
+
+/* Compact CV layout, scoped to the Group Leader page. */
+.leader-page main .wrap { width: min(1040px, 90%); }
+.leader-page .people-intro { padding: 36px 0 24px; }
+.leader-page .people-intro .eyebrow { margin-bottom: 8px; }
+.leader-page #leader-name { font-size: clamp(30px, 3vw, 42px); line-height: 1.2; margin: 10px 0 12px; }
+.leader-page #leader-role { margin: 0 0 4px; }
+.leader-page #leader-intro { margin: 0 0 12px; font-size: 14px; }
+.leader-page .people-intro > .text-link { font-size: 13px; }
+.leader-page .leader-section { display: grid; grid-template-columns: 165px minmax(0, 1fr); gap: 24px; padding: 26px 0; border-top: 1px solid var(--line); }
+.leader-page .leader-section h2 { font-size: 21px; line-height: 1.4; margin: 0; }
+.leader-page .leader-record { grid-template-columns: 120px minmax(0, 1fr); gap: 18px; padding: 9px 0; font-size: 14px; line-height: 1.6; }
+.leader-page .leader-record:first-child { border-top: 0; padding-top: 0; }
+.leader-page .leader-record:has(> .leader-year:empty) { grid-template-columns: minmax(0, 1fr); }
+.leader-page .leader-year:empty { display: none; }
+.leader-page .leader-record .award-event { margin-top: 2px; }
+.leader-page .leader-section .people-empty { padding: 0; }
+.leader-page .contact { border-top: 1px solid var(--line); padding: 26px 0 36px; }
+.leader-page .contact h2 { font-size: 21px; margin-bottom: 10px; }
+.leader-page .contact p { margin: 0; }
+.leader-page .contact-details { gap: 8px; }
+@media (max-width: 800px) {
+  .leader-page .leader-section { grid-template-columns: 1fr; gap: 14px; padding: 22px 0; }
+  .leader-page .leader-record { grid-template-columns: 105px minmax(0, 1fr); gap: 12px; }
+}
+@media (max-width: 480px) {
+  .leader-page .people-intro { padding-top: 28px; }
+  .leader-page .leader-record { grid-template-columns: 1fr; gap: 3px; }
+}
