@@ -3,6 +3,7 @@
   const $ = (s) => document.querySelector(s);
   const links = ['index.html#research','people.html','gallery.html','index.html#contact'];
   const isPeople = location.pathname.endsWith('/people.html');
+  const isLeader = location.pathname.endsWith('/group-leader.html');
   const isGallery = location.pathname.endsWith('/gallery.html');
   let language = 'zh';
   try { language = localStorage.getItem('lab-language') === 'en' ? 'en' : 'zh'; } catch (_) {}
@@ -127,7 +128,9 @@
         const list = element('ul', '', 'member-list');
         list.append(...group.members.map(member => {
           const item = element('li', '', 'member-row');
-          item.append(element('span', member.name, 'member-name'));
+          const name = element(member.url ? 'a' : 'span', member.name, 'member-name');
+          if (member.url) name.href = member.url;
+          item.append(name);
           if (member.detail) item.append(element('span', member.detail, 'member-detail'));
           return item;
         }));
@@ -242,12 +245,33 @@
       }));
     }
   }
+  function renderLeader(t) {
+    if (!$('#leader-profile')) return;
+    const profile = t.leaderProfile;
+    $('#leader-name').textContent = profile.name;
+    $('#leader-role').textContent = profile.role;
+    $('#leader-intro').textContent = profile.intro;
+    for (const key of ['education', 'experience', 'honors']) {
+      const container = $('#leader-' + key);
+      const entries = profile[key] || [];
+      const list = element('ul', '', 'leader-records');
+      list.append(...entries.map(entry => {
+        const row = element('li', '', 'leader-record');
+        const detail = element('div', entry.detail || '');
+        if (entry.organization) detail.append(element('small', entry.organization, 'award-event'));
+        row.append(element('span', entry.year || '', 'leader-year'), detail);
+        return row;
+      }));
+      container.replaceChildren(entries.length ? list : element('p', t.leaderPending, 'people-empty'));
+    }
+  }
   function render() {
     const t=window.LAB_CONTENT[language];
     const settings=window.LAB_SETTINGS;
     renderFeatured();
     renderMedia(settings, t);
     renderPeople(t, settings);
+    renderLeader(t);
     const email = (settings.email || '').trim();
     const actualEmail = email.replace(/\s+AT\s+/i, '@');
     document.querySelectorAll('.contact-email').forEach(link => {
@@ -280,14 +304,14 @@
       }
     }
     document.documentElement.lang=language==='zh'?'zh-Hant':'en';
-    document.title=(isPeople?'People | ':isGallery?'Gallery | ':'')+t.name+' | '+t.affiliation;
-    document.querySelector('meta[name="description"]').content=isGallery?t.gallerySub:isPeople?t.peopleIntro:t.intro;
+    document.title=(isLeader?t.leaderProfile.name+' | ':isPeople?'People | ':isGallery?'Gallery | ':'')+t.name+' | '+t.affiliation;
+    document.querySelector('meta[name="description"]').content=isLeader?t.leaderProfile.intro:isGallery?t.gallerySub:isPeople?t.peopleIntro:t.intro;
     document.querySelectorAll('[data-t]').forEach(el=>el.textContent=t[el.dataset.t]);
     document.querySelectorAll('[data-nav]').forEach(el=>el.textContent=t.nav[Number(el.dataset.nav)]);
     $('#language').textContent=language==='zh'?'EN':'中文';
     $('#language').setAttribute('aria-label',language==='zh'?'Switch to English':'切換為中文');
     $('#menu').setAttribute('aria-label',t.menu);
-    $('#navigation').replaceChildren(...links.map((href,i)=>{const a=element('a',t.nav[i]);a.href=href;if((isPeople&&i===1)||(isGallery&&i===2))a.setAttribute('aria-current','page');return a;}));
+    $('#navigation').replaceChildren(...links.map((href,i)=>{const a=element('a',t.nav[i]);a.href=href;if(((isPeople||isLeader)&&i===1)||(isGallery&&i===2))a.setAttribute('aria-current','page');return a;}));
     if ($('#topics')) $('#topics').replaceChildren(...t.topics.map(row=>{const a=element('article','','topic');a.append(element('h3',row[1]),element('p',row[2]));return a;}));
 
     if (slides.length) {
